@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AF03863A1AE771B900778017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0386391AE771B900778017 /* AppDelegate.swift */; };
-		AF03863C1AE771B900778017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF03863B1AE771B900778017 /* ViewController.swift */; };
-		AF03863F1AE771B900778017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF03863D1AE771B900778017 /* Main.storyboard */; };
 		AF0386411AE771B900778017 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0386401AE771B900778017 /* Images.xcassets */; };
-		AF0386441AE771B900778017 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF0386421AE771B900778017 /* LaunchScreen.xib */; };
 		AF0386501AE771B900778017 /* FacebumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF03864F1AE771B900778017 /* FacebumpTests.swift */; };
+		AF03865A1AE7745000778017 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0386591AE7745000778017 /* ContainerController.swift */; };
+		AF1FCAA61AEC4DBD00A15D92 /* PreviewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FCAA51AEC4DBD00A15D92 /* PreviewController2.swift */; };
+		AF1FCAAA1AEC574600A15D92 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FCAA91AEC574600A15D92 /* ProfilePage.swift */; };
+		AF3731FC1AE833FB00E9706D /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3731FB1AE833FB00E9706D /* PreviewController.swift */; };
+		AF3731FE1AE8341F00E9706D /* DiscoveredBarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3731FD1AE8341F00E9706D /* DiscoveredBarCodeView.swift */; };
+		B0CD4A605A1FB81BC80855AA /* Pods_Facebump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE6654019D4001568504F92 /* Pods_Facebump.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F1DCDA814A1D379F6CF686D /* Pods-Facebump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebump.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebump/Pods-Facebump.debug.xcconfig"; sourceTree = "<group>"; };
+		AEE6654019D4001568504F92 /* Pods_Facebump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0386341AE771B900778017 /* Facebump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0386381AE771B900778017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF0386391AE771B900778017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF03863B1AE771B900778017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF03863E1AE771B900778017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF0386401AE771B900778017 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AF0386431AE771B900778017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AF0386491AE771B900778017 /* FacebumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF03864E1AE771B900778017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF03864F1AE771B900778017 /* FacebumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebumpTests.swift; sourceTree = "<group>"; };
+		AF0386591AE7745000778017 /* ContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		AF1FCAA51AEC4DBD00A15D92 /* PreviewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewController2.swift; sourceTree = "<group>"; };
+		AF1FCAA91AEC574600A15D92 /* ProfilePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		AF3731FB1AE833FB00E9706D /* PreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
+		AF3731FD1AE8341F00E9706D /* DiscoveredBarCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveredBarCodeView.swift; sourceTree = "<group>"; };
+		F154D5F866E928B41F800A2A /* Pods-Facebump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebump.release.xcconfig"; path = "Pods/Target Support Files/Pods-Facebump/Pods-Facebump.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CD4A605A1FB81BC80855AA /* Pods_Facebump.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +65,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		788947B7954AE4AC799C4B12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F1DCDA814A1D379F6CF686D /* Pods-Facebump.debug.xcconfig */,
+				F154D5F866E928B41F800A2A /* Pods-Facebump.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AF03862B1AE771B900778017 = {
 			isa = PBXGroup;
 			children = (
 				AF0386361AE771B900778017 /* Facebump */,
 				AF03864C1AE771B900778017 /* FacebumpTests */,
 				AF0386351AE771B900778017 /* Products */,
+				788947B7954AE4AC799C4B12 /* Pods */,
+				D008869B7C9E7BE3FC44E2A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +98,12 @@
 			isa = PBXGroup;
 			children = (
 				AF0386391AE771B900778017 /* AppDelegate.swift */,
-				AF03863B1AE771B900778017 /* ViewController.swift */,
-				AF03863D1AE771B900778017 /* Main.storyboard */,
+				AF0386591AE7745000778017 /* ContainerController.swift */,
+				AF3731FB1AE833FB00E9706D /* PreviewController.swift */,
+				AF1FCAA51AEC4DBD00A15D92 /* PreviewController2.swift */,
+				AF1FCAA91AEC574600A15D92 /* ProfilePage.swift */,
+				AF3731FD1AE8341F00E9706D /* DiscoveredBarCodeView.swift */,
 				AF0386401AE771B900778017 /* Images.xcassets */,
-				AF0386421AE771B900778017 /* LaunchScreen.xib */,
 				AF0386371AE771B900778017 /* Supporting Files */,
 			);
 			path = Facebump;
@@ -112,6 +134,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D008869B7C9E7BE3FC44E2A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEE6654019D4001568504F92 /* Pods_Facebump.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0386531AE771B900778017 /* Build configuration list for PBXNativeTarget "Facebump" */;
 			buildPhases = (
+				C96C142A2A0907B5B5884E0C /* Check Pods Manifest.lock */,
 				AF0386301AE771B900778017 /* Sources */,
 				AF0386311AE771B900778017 /* Frameworks */,
 				AF0386321AE771B900778017 /* Resources */,
+				2169FD2D1C4A998309712860 /* Embed Pods Frameworks */,
+				5782C85296B9B277F37342DE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,8 +225,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF03863F1AE771B900778017 /* Main.storyboard in Resources */,
-				AF0386441AE771B900778017 /* LaunchScreen.xib in Resources */,
 				AF0386411AE771B900778017 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,13 +238,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2169FD2D1C4A998309712860 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facebump/Pods-Facebump-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5782C85296B9B277F37342DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facebump/Pods-Facebump-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96C142A2A0907B5B5884E0C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF0386301AE771B900778017 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF03863C1AE771B900778017 /* ViewController.swift in Sources */,
+				AF1FCAAA1AEC574600A15D92 /* ProfilePage.swift in Sources */,
+				AF3731FC1AE833FB00E9706D /* PreviewController.swift in Sources */,
+				AF3731FE1AE8341F00E9706D /* DiscoveredBarCodeView.swift in Sources */,
+				AF1FCAA61AEC4DBD00A15D92 /* PreviewController2.swift in Sources */,
 				AF03863A1AE771B900778017 /* AppDelegate.swift in Sources */,
+				AF03865A1AE7745000778017 /* ContainerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +317,6 @@
 			targetProxy = AF03864A1AE771B900778017 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AF03863D1AE771B900778017 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF03863E1AE771B900778017 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AF0386421AE771B900778017 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF0386431AE771B900778017 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AF0386511AE771B900778017 /* Debug */ = {
@@ -340,6 +404,7 @@
 		};
 		AF0386541AE771B900778017 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1DCDA814A1D379F6CF686D /* Pods-Facebump.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Facebump/Info.plist;
@@ -350,6 +415,7 @@
 		};
 		AF0386551AE771B900778017 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F154D5F866E928B41F800A2A /* Pods-Facebump.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Facebump/Info.plist;
@@ -411,6 +477,7 @@
 				AF0386551AE771B900778017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF0386561AE771B900778017 /* Build configuration list for PBXNativeTarget "FacebumpTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +486,7 @@
 				AF0386581AE771B900778017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module SwiftAddressBook {
+  umbrella header "Pods-Facebump-SwiftAddressBook-umbrella.h"
+
+  export *
+  module * { export * }
+}

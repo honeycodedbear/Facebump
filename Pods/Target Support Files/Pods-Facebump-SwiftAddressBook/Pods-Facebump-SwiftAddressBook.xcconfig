@@ -1,0 +1,1 @@
+PODS_FACEBUMP_SWIFTADDRESSBOOK_OTHER_LDFLAGS = -framework "AddressBook" -framework "AddressBookUI"

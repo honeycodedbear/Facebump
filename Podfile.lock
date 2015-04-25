@@ -1,0 +1,24 @@
+PODS:
+  - RSBarcodes_Swift (0.0.6)
+  - SwiftAddressBook (0.4.2)
+
+DEPENDENCIES:
+  - RSBarcodes_Swift (~> 0.0.6)
+  - SwiftAddressBook (from `https://github.com/SocialbitGmbH/SwiftAddressBook.git`,
+    branch `Swift_1.2_take2`)
+
+EXTERNAL SOURCES:
+  SwiftAddressBook:
+    :branch: Swift_1.2_take2
+    :git: https://github.com/SocialbitGmbH/SwiftAddressBook.git
+
+CHECKOUT OPTIONS:
+  SwiftAddressBook:
+    :commit: 43d7fdc2beb8007f4f670c79bbbd3f542c66f97c
+    :git: https://github.com/SocialbitGmbH/SwiftAddressBook.git
+
+SPEC CHECKSUMS:
+  RSBarcodes_Swift: dd8865f5aa24adafb6656b7f3cf0af5fc9fe2297
+  SwiftAddressBook: 36e379c884d968ea3d980b83811704c47eff80b1
+
+COCOAPODS: 0.36.3
