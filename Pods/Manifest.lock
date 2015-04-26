@@ -1,8 +1,10 @@
 PODS:
+  - QRCode (0.1)
   - RSBarcodes_Swift (0.0.6)
   - SwiftAddressBook (0.4.2)
 
 DEPENDENCIES:
+  - QRCode (~> 0.1)
   - RSBarcodes_Swift (~> 0.0.6)
   - SwiftAddressBook (from `https://github.com/SocialbitGmbH/SwiftAddressBook.git`,
     branch `Swift_1.2_take2`)
@@ -18,6 +20,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/SocialbitGmbH/SwiftAddressBook.git
 
 SPEC CHECKSUMS:
+  QRCode: 7339124ec1677791b282d37f4a5a30ca2c6efb89
   RSBarcodes_Swift: dd8865f5aa24adafb6656b7f3cf0af5fc9fe2297
   SwiftAddressBook: 36e379c884d968ea3d980b83811704c47eff80b1
 

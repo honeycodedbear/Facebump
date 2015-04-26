@@ -4,6 +4,7 @@ use_frameworks!
 
 target 'Facebump' do
   pod 'RSBarcodes_Swift', '~> 0.0.6'
+  pod "QRCode", "~> 0.1"
   pod "SwiftAddressBook", :git => 'https://github.com/SocialbitGmbH/SwiftAddressBook.git', :branch => 'Swift_1.2_take2'
 end
 

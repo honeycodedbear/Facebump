@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E8C312E2BBAB74794AAC07D"
+               BlueprintIdentifier = "1EE23A3651C6F9F125C29DE2"
                BuildableName = "Pods_Facebump.framework"
                BlueprintName = "Pods-Facebump"
                ReferencedContainer = "container:Pods.xcodeproj">

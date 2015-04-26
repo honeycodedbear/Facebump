@@ -6,6 +6,12 @@
 // project.
 
 
+// QRCode
+#define COCOAPODS_POD_AVAILABLE_QRCode
+#define COCOAPODS_VERSION_MAJOR_QRCode 0
+#define COCOAPODS_VERSION_MINOR_QRCode 1
+#define COCOAPODS_VERSION_PATCH_QRCode 0
+
 // RSBarcodes_Swift
 #define COCOAPODS_POD_AVAILABLE_RSBarcodes_Swift
 #define COCOAPODS_VERSION_MAJOR_RSBarcodes_Swift 0

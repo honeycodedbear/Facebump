@@ -22,8 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window!.backgroundColor = UIColor.whiteColor()
         self.window!.makeKeyAndVisible()
         
-        self.window!.rootViewController = ProfilePage.sharedInstance
-        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        if let profile = defaults.dictionaryForKey("profile"){
+            println(profile)
+            self.window!.rootViewController = ScanningPage.sharedInstance
+        }else{
+            self.window!.rootViewController = ProfilePage.sharedInstance
+        }
+
         return true
     }
 

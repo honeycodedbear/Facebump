@@ -13,6 +13,7 @@
 		AF03865A1AE7745000778017 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0386591AE7745000778017 /* ContainerController.swift */; };
 		AF1FCAA61AEC4DBD00A15D92 /* PreviewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FCAA51AEC4DBD00A15D92 /* PreviewController2.swift */; };
 		AF1FCAAA1AEC574600A15D92 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FCAA91AEC574600A15D92 /* ProfilePage.swift */; };
+		AF1FCAAC1AEC81F500A15D92 /* ScanningPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FCAAB1AEC81F500A15D92 /* ScanningPage.swift */; };
 		AF3731FC1AE833FB00E9706D /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3731FB1AE833FB00E9706D /* PreviewController.swift */; };
 		AF3731FE1AE8341F00E9706D /* DiscoveredBarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3731FD1AE8341F00E9706D /* DiscoveredBarCodeView.swift */; };
 		B0CD4A605A1FB81BC80855AA /* Pods_Facebump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE6654019D4001568504F92 /* Pods_Facebump.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -41,6 +42,7 @@
 		AF0386591AE7745000778017 /* ContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
 		AF1FCAA51AEC4DBD00A15D92 /* PreviewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewController2.swift; sourceTree = "<group>"; };
 		AF1FCAA91AEC574600A15D92 /* ProfilePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		AF1FCAAB1AEC81F500A15D92 /* ScanningPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanningPage.swift; sourceTree = "<group>"; };
 		AF3731FB1AE833FB00E9706D /* PreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
 		AF3731FD1AE8341F00E9706D /* DiscoveredBarCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveredBarCodeView.swift; sourceTree = "<group>"; };
 		F154D5F866E928B41F800A2A /* Pods-Facebump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebump.release.xcconfig"; path = "Pods/Target Support Files/Pods-Facebump/Pods-Facebump.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				AF3731FB1AE833FB00E9706D /* PreviewController.swift */,
 				AF1FCAA51AEC4DBD00A15D92 /* PreviewController2.swift */,
 				AF1FCAA91AEC574600A15D92 /* ProfilePage.swift */,
+				AF1FCAAB1AEC81F500A15D92 /* ScanningPage.swift */,
 				AF3731FD1AE8341F00E9706D /* DiscoveredBarCodeView.swift */,
 				AF0386401AE771B900778017 /* Images.xcassets */,
 				AF0386371AE771B900778017 /* Supporting Files */,
@@ -291,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1FCAAC1AEC81F500A15D92 /* ScanningPage.swift in Sources */,
 				AF1FCAAA1AEC574600A15D92 /* ProfilePage.swift in Sources */,
 				AF3731FC1AE833FB00E9706D /* PreviewController.swift in Sources */,
 				AF3731FE1AE8341F00E9706D /* DiscoveredBarCodeView.swift in Sources */,

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-Facebump-QRCode.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Facebump-RSBarcodes_Swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3E8C312E2BBAB74794AAC07D</key>
+		<key>1EE23A3651C6F9F125C29DE2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>516FF7002375B6102E661A36</key>
+		<key>2FD72AFCE1BEB8208B6DBC2C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>911410D54FD318DE2549BCAD</key>
+		<key>92DBAD188642F81A9AF1FB2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B437E8B8E1112DDE60FBF6B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

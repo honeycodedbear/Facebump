@@ -1,0 +1,6 @@
+framework module QRCode {
+  umbrella header "Pods-Facebump-QRCode-umbrella.h"
+
+  export *
+  module * { export * }
+}
