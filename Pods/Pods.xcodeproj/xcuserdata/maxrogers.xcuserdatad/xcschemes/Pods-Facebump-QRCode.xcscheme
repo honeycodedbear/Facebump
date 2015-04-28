@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B437E8B8E1112DDE60FBF6B1"
+               BlueprintIdentifier = "FF0B98A1AB14AA6F243E3197"
                BuildableName = "QRCode.framework"
                BlueprintName = "Pods-Facebump-QRCode"
                ReferencedContainer = "container:Pods.xcodeproj">

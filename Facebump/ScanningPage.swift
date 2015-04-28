@@ -6,22 +6,42 @@
 //  Copyright (c) 2015 Max Rogers. All rights reserved.
 //
 
-//
-//  PreviewController2.swift
-//  Facebump
-//
-//  Created by Max Rogers on 4/25/15.
-//  Copyright (c) 2015 Max Rogers. All rights reserved.
-//
-
 import AVFoundation
 import UIKit
 import SwiftAddressBook
 import RSBarcodes_Swift
 import QRCode
+import AudioToolbox
+
+//Fixing NSURL to turn the Query string into a usable Dictioanry
+extension NSURL
+{
+    @objc var queryDictionary:[String: [String]]? {
+        get {
+            if let query = self.query {
+                var dictionary = [String: [String]]()
+                
+                for keyValueString in query.componentsSeparatedByString("&") {
+                    var parts = keyValueString.componentsSeparatedByString("=")
+                    if parts.count < 2 { continue; }
+                    
+                    var key = parts[0].stringByRemovingPercentEncoding!
+                    var value = parts[1].stringByRemovingPercentEncoding!
+                    
+                    var values = dictionary[key] ?? [String]()
+                    values.append(value)
+                    dictionary[key] = values
+                }
+                
+                return dictionary
+            }
+            
+            return nil
+        }
+    }
+}
 
 private let _sharedInstance = ScanningPage()
-
 
 class ScanningPage: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     
@@ -99,33 +119,6 @@ class ScanningPage: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         view.bringSubviewToFront(qrCodeFrameView!)
         
         addQRCodeView()
-        // Testing SwiftAddressBook
-        swiftAddressBook?.requestAccessWithCompletion({ (success, error) -> Void in
-            if success {
-                //do something with swiftAddressBook
-                /*
-                var person = SwiftAddressBookPerson.create()
-                person.firstName = "John"
-                
-                var email = MultivalueEntry(value: "someone@gmail.com", label: "home", id: 0)
-                person.emails = [email]
-                
-                swiftAddressBook?.addRecord(person)
-                swiftAddressBook?.save()
-                
-                if let people = swiftAddressBook?.allPeople {
-                    for person in people {
-                        if person.firstName == "John"{
-                          //  println("\(person.emails?.first?.value)")
-                        }
-                    }
-                }
-                */
-            }
-            else {
-                //no success. Optionally evaluate error
-            }
-        })
     }
     
     override func didReceiveMemoryWarning() {
@@ -165,32 +158,83 @@ class ScanningPage: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     
     //This is the alert prompt
     func launchApp(decodedURL: String) {
-        let alertPrompt = UIAlertController(title: "Open App", message: "You're going to open \(decodedURL)", preferredStyle: .ActionSheet)
-        let confirmAction = UIAlertAction(title: "Confirm", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
-            
-            if let url = NSURL(string: decodedURL) {
-                if UIApplication.sharedApplication().canOpenURL(url) {
-                    UIApplication.sharedApplication().openURL(url)
-                }
-            }
-        })
-        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
+        //Want to alert them with a vibrate
+        //AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+        //Doesn't appear to work :(
+        var resultString = ""
+        var url = NSURL(string: decodedURL)
+        let dict = url!.queryDictionary
+        let firstName = dict?["firstName"]?.first
+        let lastName = dict?["lastName"]?.first
+        let phoneNumber = dict?["phoneNumber"]?.first
+        let email = dict?["email"]?.first
+        resultString = "Firstname: \(firstName!),\n Lastname: \(lastName!),\n PhoneNumber: \(phoneNumber!),\n Email: \(email!)"
         
+        let alertPrompt = UIAlertController(title: "New Contact Found", message: "Would you like to add?\n \(resultString)", preferredStyle: .ActionSheet)
+        let confirmAction = UIAlertAction(title: "Save", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
+            
+            println("Save Contact")
+            // Testing SwiftAddressBook
+            swiftAddressBook?.requestAccessWithCompletion({ (success, error) -> Void in
+                if success {
+                    //do something with swiftAddressBook
+                    var person = SwiftAddressBookPerson.create()
+                    person.firstName = firstName
+                    person.lastName = lastName
+                    var new_email = MultivalueEntry(value: email!, label: "email", id: 0)
+                    person.emails = [new_email]
+                    var phone = MultivalueEntry(value: phoneNumber!, label: "phone", id: 0)
+                    person.emails = [phone]
+                    swiftAddressBook?.addRecord(person)
+                    swiftAddressBook?.save()
+                }else{
+                    
+                }
+            })
+
+        })
+        let cancelAction = UIAlertAction(title: "Ignore", style: UIAlertActionStyle.Cancel, handler: nil)
+
         alertPrompt.addAction(confirmAction)
         alertPrompt.addAction(cancelAction)
-        
+
         self.presentViewController(alertPrompt, animated: true, completion: nil)
-        
     }
-    
+
     //Our User's QR Code View
     func addQRCodeView(){
-        let qrCode = QRCode("http://maxrogers.me")
-        qrCode.size = CGSize(width: 400, height: 400)
+        var qrCode = QRCode("http://maxrogers.me?firstName=Max&lastName=Rogers")
+        qrCode?.size = CGSize(width: 350, height:350)
         var codeView = UIImageView(image: qrCode?.image)
         self.view.addSubview(codeView)
         codeView.setTranslatesAutoresizingMaskIntoConstraints(false)
         
+        //Now Resize with Autolayout
+        self.view.addConstraint(NSLayoutConstraint(
+            item:codeView,
+            attribute:NSLayoutAttribute.Width,
+            relatedBy:NSLayoutRelation.Equal,
+            toItem:self.view,
+            attribute:NSLayoutAttribute.Width,
+            multiplier:0.9,
+            constant:0))
+        self.view.addConstraint(NSLayoutConstraint(
+            item:codeView,
+            attribute:NSLayoutAttribute.Top,
+            relatedBy:NSLayoutRelation.Equal,
+            toItem:self.view,
+            attribute:NSLayoutAttribute.Top,
+            multiplier:1.0,
+            constant:20))
+        self.view.addConstraint(NSLayoutConstraint(
+            item: codeView,
+            attribute:NSLayoutAttribute.CenterX,
+            relatedBy: NSLayoutRelation.Equal,
+            toItem: self.view,
+            attribute: NSLayoutAttribute.CenterX,
+            multiplier: 1.0,
+            constant: 0))
+
     }
     
 }

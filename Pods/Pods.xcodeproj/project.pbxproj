@@ -7,448 +7,411 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00AADAB60AB72773FD27A276 /* RSCode39Mod43Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C291666BEC83CDBB161026AF /* RSCode39Mod43Generator.swift */; };
-		0327934EFD0308018B6C5AD6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7AF8D681F0DC8080898DF1 /* AVFoundation.framework */; };
-		0E2905845213A9C3083222E2 /* RSCode128Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C4580F31944135F730792A /* RSCode128Generator.swift */; };
-		10EE09B01B8B7D3055C6F10C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFD8F5409E2585FC9F23437 /* UIColorExtension.swift */; };
-		12108CF7190BE118F3FA85C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5052D6F771DC57DAAC3557 /* Foundation.framework */; };
-		123B82A64AADFA8DEF6E2A40 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188D425D5AFBC7C92C8FBD77 /* CoreImage.framework */; };
-		14F0A33CA81199305D099DF8 /* Pods-Facebump-QRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C5381D6D9F394F748F63BB /* Pods-Facebump-QRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15A1105A67EC950F2A445E4A /* RSExtendedCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4114A744CFE2E0EC5DCB963 /* RSExtendedCode39Generator.swift */; };
-		15D74709887FBE81F31DDF10 /* RSEANGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5829996BA09909C0ECADCC83 /* RSEANGenerator.swift */; };
-		1C8ADE63F70CE4B6636085ED /* SwiftAddressBookGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D638B5174AA7765439D70E6 /* SwiftAddressBookGroup.swift */; };
-		1FFFF2FA0F38246CE5C9F0D7 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BCEA3B7F6689FA1376E5A7 /* SwiftAddressBookHelperMethods.swift */; };
-		31E0A670C642FE4069796F6D /* RSFocusMarkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D470AE84169B17568AD3 /* RSFocusMarkLayer.swift */; };
-		320BFC57B731CA0E193EAD62 /* Pods-Facebump-RSBarcodes_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6686F320891AFFD678F39F36 /* Pods-Facebump-RSBarcodes_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5544893C5DE33ABDC5296569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5052D6F771DC57DAAC3557 /* Foundation.framework */; };
-		60B90E5E7CAE7281149095BF /* Pods-Facebump-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD34F85661BC68A0386FEDAA /* Pods-Facebump-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		610FFAD66C68006CC3B9C619 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C9B6A3890C4D4BF61C4D7C /* AddressBook.framework */; };
-		6164831D1D5C229F226C0697 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6010020C5F43BA300413D89 /* AddressBookUI.framework */; };
-		69D492A11DAF4E270A6CE1B0 /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28579E8C1633510F743F3CCE /* RSCodeReaderViewController.swift */; };
-		6A3CDF573CA8A485396980FB /* Pods-Facebump-RSBarcodes_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EC3A4D88BFA04773317756 /* Pods-Facebump-RSBarcodes_Swift-dummy.m */; };
-		6DCC425B0BF32F198914F1D7 /* Pods-Facebump-QRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D48F379C063041FB5D73C8E /* Pods-Facebump-QRCode-dummy.m */; };
-		7DEE5FEAA198A33E62826761 /* RSCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881263A7EC809A4D22B9DA2D /* RSCode39Generator.swift */; };
-		7E4256472DC4B17A259AC9C2 /* RSUnifiedCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCE89F03128923750AC86D5 /* RSUnifiedCodeGenerator.swift */; };
-		8077B1BA719CED09FEF40231 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D23DF47ED9EE67688F5512D /* QRCode.swift */; };
-		8752C842523C516110796A5B /* Pods-Facebump-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BEE8CAC77ECA1E7CAF206 /* Pods-Facebump-dummy.m */; };
-		88E136ADB084B6741F18EB02 /* SwiftAddressBookDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D6AB663BB061E08600DAE /* SwiftAddressBookDataStructures.swift */; };
-		8C78B9D4647230A4E4DDBB76 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA27136459819DC14E82F844 /* CIColorExtension.swift */; };
-		92B2DB28D0BFB19415B753FC /* SwiftAddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E74F7C4CB9E422DD6C2F9B /* SwiftAddressBookRecord.swift */; };
-		96B6D54BD7DFD21E81E47CD1 /* RSUPCEGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6799432C3F3CF6DF0C3AE62A /* RSUPCEGenerator.swift */; };
-		9FA4AAB17E41282D88D84CEB /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BB54C37184C12AD4262BBE /* UIImageViewExtension.swift */; };
-		A74EF0DAE2B6D4523FFE12F6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334363C4152D68662749800 /* StringExtension.swift */; };
-		A765CD21EFD8E2345489E898 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387C7F9327D895A703C208CA /* QuartzCore.framework */; };
-		AD4FEF167C739DB86C52BA04 /* RSITFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFCA844D95D4A52C672D69 /* RSITFGenerator.swift */; };
-		C6CB19F0295078F541DFB651 /* RSCode93Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EBF34CE094E442716E3994 /* RSCode93Generator.swift */; };
-		CA45BF589AFD7A01E0A82C60 /* Pods-Facebump-SwiftAddressBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0073C8B5739E76FF368AE08B /* Pods-Facebump-SwiftAddressBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D484FFB1E5828D42E3928484 /* RSITF14Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEFB198508BCF926313541 /* RSITF14Generator.swift */; };
-		DA3FE0F82CEAF193E2528009 /* Pods-Facebump-SwiftAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D30558D8B1023FA54F35373 /* Pods-Facebump-SwiftAddressBook-dummy.m */; };
-		DE387F67B1B19E4905CE162C /* RSCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C5E33177FB88E14BFFB4E /* RSCodeGenerator.swift */; };
-		E43A032AC2E06108E831E719 /* SwiftAddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB22C2FBB1B21199D11AAB0 /* SwiftAddressBookPerson.swift */; };
-		EB09E9F5E1052E88A2E77306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5052D6F771DC57DAAC3557 /* Foundation.framework */; };
-		EC485F9BAE67B17781D0694C /* SwiftAddressBookSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2A7840B16C03228B5BA68 /* SwiftAddressBookSource.swift */; };
-		ED41201EEF83B6475150A9D3 /* RSCodeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682A637C09ABD85633E5133 /* RSCodeLayer.swift */; };
-		F6B9FD540EDDAA54990D58C4 /* RSCornersLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C64FB0B3818B9436ABE320 /* RSCornersLayer.swift */; };
-		F873C7EDD25C6CC6C63E727E /* SwiftAddressBookWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF7D167155D88FFDD2478F /* SwiftAddressBookWrapper.swift */; };
-		FEE7FDD43366C41002F35C5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5052D6F771DC57DAAC3557 /* Foundation.framework */; };
+		087770E6EB34E86E0294CF58 /* RSEANGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC12A1D860434630C751412 /* RSEANGenerator.swift */; };
+		1150C9990EF93E6AADCC9B8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE34E47EEE7B1DFABB157C90 /* QuartzCore.framework */; };
+		11F565EA04BAA60D36BEFD6D /* Pods-Facebump-RSBarcodes_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F23F8CC859394997668C4D9 /* Pods-Facebump-RSBarcodes_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B200A501E170B85316A3F3 /* SwiftAddressBookGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D697F5B88C759CDA32536 /* SwiftAddressBookGroup.swift */; };
+		16C927E3F069C243527C1E1F /* RSITF14Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F3571633B7C57D45EBDF6 /* RSITF14Generator.swift */; };
+		18D6E3491F383F8BACCC5652 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0796A377A151B1EF8D610988 /* AddressBook.framework */; };
+		22BC33C0B81A503AFDF251C3 /* RSCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF1EFB5BCCDD6D15201036 /* RSCodeGenerator.swift */; };
+		2AC3E099DD6282B81A50BCFF /* RSFocusMarkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24515730675A8CB70D9C637B /* RSFocusMarkLayer.swift */; };
+		2E149857CDEA232954968123 /* Pods-Facebump-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17253907ADFE0AB7E8320D24 /* Pods-Facebump-dummy.m */; };
+		32760FFC3DF16F6996DFCE08 /* RSCode39Mod43Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05957E21DDB40FB3A0E93BC /* RSCode39Mod43Generator.swift */; };
+		342D837C5DBEEF8396730CBC /* SwiftAddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = E926558E242F91049F4C70AA /* SwiftAddressBookPerson.swift */; };
+		45E3B29F1DB2BA674C3A2A15 /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5102D88B5088A61A2D84411C /* RSCodeReaderViewController.swift */; };
+		4E318BE0F6D430132D142297 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D70ED2972F1D4A03C48992 /* AddressBookUI.framework */; };
+		4EBF9C5E02A7B0D3C097B2D4 /* Pods-Facebump-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22326013EADFA6875A5A8BDB /* Pods-Facebump-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D713CADA6EF8ED3347D1438 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C725000DE76ABC8DB56B68B /* CIColorExtension.swift */; };
+		5E8C7581612B9A62628F399C /* Pods-Facebump-QRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 057F3B1A6FCF7D4FFE829AF1 /* Pods-Facebump-QRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EFA83E6B3FB724DDDF3057A /* SwiftAddressBookDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24360F50CB040EDF2CD1FF03 /* SwiftAddressBookDataStructures.swift */; };
+		6914968116D416CFD27EEE65 /* SwiftAddressBookWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC051E4434B8A8E0C3454842 /* SwiftAddressBookWrapper.swift */; };
+		7475BB4F5383ABD9913BC3A1 /* RSITFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83039E4F4113486D3E7D4CAA /* RSITFGenerator.swift */; };
+		75DEAFF0F9A00486EB636671 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C423CA64ED0FD707E43509 /* AVFoundation.framework */; };
+		7E23F572BAE30BA9E6DBE48F /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9F0ACE7E95B904C06F231 /* QRCode.swift */; };
+		7F31BE55FAED787CAF6E6C52 /* RSExtendedCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536543815FE291273A5DA169 /* RSExtendedCode39Generator.swift */; };
+		9317996EAE2BD8F5E12B40DD /* Pods-Facebump-RSBarcodes_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE442CC1D0EDBB550EF82C /* Pods-Facebump-RSBarcodes_Swift-dummy.m */; };
+		95BBCE42EEE43A179149BBB1 /* RSCode93Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342C779AE11D56783866DB1 /* RSCode93Generator.swift */; };
+		A2E9B8935C15C91BEDDAAD32 /* Pods-Facebump-SwiftAddressBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA623917326CE94615A7279 /* Pods-Facebump-SwiftAddressBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4004E40E4DD422208C89FF9 /* RSUPCEGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C248CEF636C123649A01B9 /* RSUPCEGenerator.swift */; };
+		B5F60B81E8AD056C2A2673FD /* RSCodeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C660E53907F544B66864E71 /* RSCodeLayer.swift */; };
+		B88448AE0C1F58ED4BC48DC1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3132EDF6BF9B3FAB29E10D7 /* UIColorExtension.swift */; };
+		BB7CEFB7A4E242E99EEA42A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8839CBD7337306A84EEDF98E /* Foundation.framework */; };
+		C06618630068617790413399 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8839CBD7337306A84EEDF98E /* Foundation.framework */; };
+		C7492B71C7CEC9F13FD84C2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8839CBD7337306A84EEDF98E /* Foundation.framework */; };
+		C8334594395138238560ECD7 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDCDB0FF65105EDFCE05AB3 /* CoreImage.framework */; };
+		C859F3DE3BCE5306BF39BAD3 /* RSCode128Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89C07AFB406963329BD0EE5 /* RSCode128Generator.swift */; };
+		C8883B6D55F4F833D51B52D3 /* SwiftAddressBookSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6713225C934F6FD6644A74 /* SwiftAddressBookSource.swift */; };
+		D196D8E1461ED9F82D74F1E3 /* RSCornersLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D4DAD529FC01AD960092EC /* RSCornersLayer.swift */; };
+		D61AD223D481865E6F688186 /* SwiftAddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF60242F235CF0A14D1D99 /* SwiftAddressBookRecord.swift */; };
+		DC0A190F2E09894C1AA757C7 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2D7F2ACDF30D32B6CF9842 /* StringExtension.swift */; };
+		DCF7572D5EC383094605C8D2 /* RSCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA457C7BCED9B33F5EB00F4 /* RSCode39Generator.swift */; };
+		E870588C7ADFE10C6A9E66D5 /* Pods-Facebump-QRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91959EE8CC15F9CB0D82DD31 /* Pods-Facebump-QRCode-dummy.m */; };
+		EB92F9E500864171E12DF5E1 /* RSUnifiedCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FA764AC85B40C5AF423A4 /* RSUnifiedCodeGenerator.swift */; };
+		EDFC295D8579C1E63A840627 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A79980077F752D43B66A9D /* UIImageViewExtension.swift */; };
+		F33E0E88BE71E700417DA597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8839CBD7337306A84EEDF98E /* Foundation.framework */; };
+		F53E8E6DC26C85BB9A94F930 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB5DCDD14996E0695D6BC96 /* SwiftAddressBookHelperMethods.swift */; };
+		FA2C38CCEDD842C14F96F268 /* Pods-Facebump-SwiftAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B2A42221F71FF40391F913 /* Pods-Facebump-SwiftAddressBook-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8F10A16D363638C85DCD79E2 /* PBXContainerItemProxy */ = {
+		53FE6854F853C1AFA8A91529 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C897B02E9B94E84F42C1A174 /* Project object */;
+			containerPortal = C6D460FC739C2C1C985B9402 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FD72AFCE1BEB8208B6DBC2C;
+			remoteGlobalIDString = 8EEDB0F786DA8EC501D3C0AB;
 			remoteInfo = "Pods-Facebump-RSBarcodes_Swift";
 		};
-		D24B37934499F675B1DA98C8 /* PBXContainerItemProxy */ = {
+		6E14D4B11D5A11924FB92A35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C897B02E9B94E84F42C1A174 /* Project object */;
+			containerPortal = C6D460FC739C2C1C985B9402 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 92DBAD188642F81A9AF1FB2B;
+			remoteGlobalIDString = 2720000A2AB95720205CB225;
 			remoteInfo = "Pods-Facebump-SwiftAddressBook";
 		};
-		FAF8E37C686D0FC2A6DDDD17 /* PBXContainerItemProxy */ = {
+		DC44C2000121121110A3085F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C897B02E9B94E84F42C1A174 /* Project object */;
+			containerPortal = C6D460FC739C2C1C985B9402 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B437E8B8E1112DDE60FBF6B1;
+			remoteGlobalIDString = FF0B98A1AB14AA6F243E3197;
 			remoteInfo = "Pods-Facebump-QRCode";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0073C8B5739E76FF368AE08B /* Pods-Facebump-SwiftAddressBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-SwiftAddressBook-umbrella.h"; sourceTree = "<group>"; };
-		02BB54C37184C12AD4262BBE /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = QRCode/UIImageViewExtension.swift; sourceTree = "<group>"; };
-		03B9D26D116141D1AEDAC811 /* Pods-Facebump-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-environment.h"; sourceTree = "<group>"; };
-		053EF3510DAE2E14278885AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FE2A7840B16C03228B5BA68 /* SwiftAddressBookSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookSource.swift; path = Pod/Classes/SwiftAddressBookSource.swift; sourceTree = "<group>"; };
-		188D425D5AFBC7C92C8FBD77 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
-		26AEF11D020E5B900590F0CA /* Pods-Facebump-SwiftAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-SwiftAddressBook-prefix.pch"; sourceTree = "<group>"; };
-		28579E8C1633510F743F3CCE /* RSCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeReaderViewController.swift; path = Source/RSCodeReaderViewController.swift; sourceTree = "<group>"; };
-		2AB0CF4B66048B58A5EED751 /* Pods-Facebump-QRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Facebump-QRCode.modulemap"; sourceTree = "<group>"; };
-		2D9C2157229AF5916100654C /* Pods-Facebump-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Facebump-acknowledgements.markdown"; sourceTree = "<group>"; };
-		314015F2BAE6EFD388C9D996 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		387C7F9327D895A703C208CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		3D30558D8B1023FA54F35373 /* Pods-Facebump-SwiftAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Facebump-SwiftAddressBook-dummy.m"; sourceTree = "<group>"; };
-		3D638B5174AA7765439D70E6 /* SwiftAddressBookGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookGroup.swift; path = Pod/Classes/SwiftAddressBookGroup.swift; sourceTree = "<group>"; };
-		3EBFCA844D95D4A52C672D69 /* RSITFGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSITFGenerator.swift; path = Source/RSITFGenerator.swift; sourceTree = "<group>"; };
-		40C5381D6D9F394F748F63BB /* Pods-Facebump-QRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-QRCode-umbrella.h"; sourceTree = "<group>"; };
-		44CF7D167155D88FFDD2478F /* SwiftAddressBookWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookWrapper.swift; path = Pod/Classes/SwiftAddressBookWrapper.swift; sourceTree = "<group>"; };
-		476995F666ADABC516A5C05E /* Pods-Facebump-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Facebump-frameworks.sh"; sourceTree = "<group>"; };
-		47C64FB0B3818B9436ABE320 /* RSCornersLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCornersLayer.swift; path = Source/RSCornersLayer.swift; sourceTree = "<group>"; };
-		5334363C4152D68662749800 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Source/StringExtension.swift; sourceTree = "<group>"; };
-		5614FA42D28A8E016F798E6C /* Pods_Facebump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5829996BA09909C0ECADCC83 /* RSEANGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSEANGenerator.swift; path = Source/RSEANGenerator.swift; sourceTree = "<group>"; };
-		5B05D470AE84169B17568AD3 /* RSFocusMarkLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFocusMarkLayer.swift; path = Source/RSFocusMarkLayer.swift; sourceTree = "<group>"; };
-		5EA9FA47B2C7F6E96CF4C55B /* Pods-Facebump-QRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-QRCode-prefix.pch"; sourceTree = "<group>"; };
-		5F9BEE8CAC77ECA1E7CAF206 /* Pods-Facebump-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Facebump-dummy.m"; sourceTree = "<group>"; };
-		65C9B6A3890C4D4BF61C4D7C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
-		6686F320891AFFD678F39F36 /* Pods-Facebump-RSBarcodes_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-RSBarcodes_Swift-umbrella.h"; sourceTree = "<group>"; };
-		6799432C3F3CF6DF0C3AE62A /* RSUPCEGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSUPCEGenerator.swift; path = Source/RSUPCEGenerator.swift; sourceTree = "<group>"; };
-		6BF2CE904FB596195701515F /* Pods-Facebump.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Facebump.modulemap"; sourceTree = "<group>"; };
-		7C6454282D3FE6502E3B5582 /* Pods-Facebump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump.release.xcconfig"; sourceTree = "<group>"; };
-		8126EAB8E690284BD6977826 /* Pods-Facebump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump.debug.xcconfig"; sourceTree = "<group>"; };
-		8325D9E3A775237CF15D54A3 /* Pods-Facebump-QRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-QRCode.xcconfig"; sourceTree = "<group>"; };
-		87FEFB198508BCF926313541 /* RSITF14Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSITF14Generator.swift; path = Source/RSITF14Generator.swift; sourceTree = "<group>"; };
-		881263A7EC809A4D22B9DA2D /* RSCode39Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode39Generator.swift; path = Source/RSCode39Generator.swift; sourceTree = "<group>"; };
-		8BC97FEFDD4AA258ACC4B6BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D23DF47ED9EE67688F5512D /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/QRCode.swift; sourceTree = "<group>"; };
-		8D48F379C063041FB5D73C8E /* Pods-Facebump-QRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Facebump-QRCode-dummy.m"; sourceTree = "<group>"; };
-		8E0C5E33177FB88E14BFFB4E /* RSCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeGenerator.swift; path = Source/RSCodeGenerator.swift; sourceTree = "<group>"; };
-		99BCEA3B7F6689FA1376E5A7 /* SwiftAddressBookHelperMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookHelperMethods.swift; path = Pod/Classes/SwiftAddressBookHelperMethods.swift; sourceTree = "<group>"; };
-		9B7AF8D681F0DC8080898DF1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		9BB22C2FBB1B21199D11AAB0 /* SwiftAddressBookPerson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookPerson.swift; path = Pod/Classes/SwiftAddressBookPerson.swift; sourceTree = "<group>"; };
-		A4C4580F31944135F730792A /* RSCode128Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode128Generator.swift; path = Source/RSCode128Generator.swift; sourceTree = "<group>"; };
-		A6010020C5F43BA300413D89 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
-		AA27136459819DC14E82F844 /* CIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIColorExtension.swift; path = QRCode/CIColorExtension.swift; sourceTree = "<group>"; };
-		AD0D6AB663BB061E08600DAE /* SwiftAddressBookDataStructures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookDataStructures.swift; path = Pod/Classes/SwiftAddressBookDataStructures.swift; sourceTree = "<group>"; };
-		ADD7975302DF97F458E50CAB /* Pods-Facebump-RSBarcodes_Swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-RSBarcodes_Swift-Private.xcconfig"; sourceTree = "<group>"; };
-		B4114A744CFE2E0EC5DCB963 /* RSExtendedCode39Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSExtendedCode39Generator.swift; path = Source/RSExtendedCode39Generator.swift; sourceTree = "<group>"; };
-		B4CF08468C72A04AFA9A9525 /* Pods-Facebump-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Facebump-resources.sh"; sourceTree = "<group>"; };
-		B526AF4F4B303262AFBF233B /* Pods-Facebump-SwiftAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-SwiftAddressBook.xcconfig"; sourceTree = "<group>"; };
-		B53AA037096CA98E9821D8F3 /* RSBarcodes_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSBarcodes_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B775DA075E2149FBABEDB201 /* Pods-Facebump-SwiftAddressBook-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-SwiftAddressBook-Private.xcconfig"; sourceTree = "<group>"; };
-		BBB9C8F5651882C8FAFE2C6A /* Pods-Facebump-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Facebump-acknowledgements.plist"; sourceTree = "<group>"; };
-		BBD8E86ABFB22550798B8CB9 /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD5052D6F771DC57DAAC3557 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C291666BEC83CDBB161026AF /* RSCode39Mod43Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode39Mod43Generator.swift; path = Source/RSCode39Mod43Generator.swift; sourceTree = "<group>"; };
-		C682A637C09ABD85633E5133 /* RSCodeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeLayer.swift; path = Source/RSCodeLayer.swift; sourceTree = "<group>"; };
-		C990E987DA00EA420760F5A1 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CA82150053008E7BD330527E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCFD8F5409E2585FC9F23437 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Source/UIColorExtension.swift; sourceTree = "<group>"; };
-		CD34F85661BC68A0386FEDAA /* Pods-Facebump-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-umbrella.h"; sourceTree = "<group>"; };
-		D0EC3A4D88BFA04773317756 /* Pods-Facebump-RSBarcodes_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Facebump-RSBarcodes_Swift-dummy.m"; sourceTree = "<group>"; };
-		D9ED4EAEBECA01BC8CF2AE6D /* Pods-Facebump-SwiftAddressBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Facebump-SwiftAddressBook.modulemap"; sourceTree = "<group>"; };
-		DBFD9CF773A22DDDD1BF479F /* Pods-Facebump-QRCode-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-QRCode-Private.xcconfig"; sourceTree = "<group>"; };
-		DF34F502E909F5CCC98C20DD /* Pods-Facebump-RSBarcodes_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-RSBarcodes_Swift-prefix.pch"; sourceTree = "<group>"; };
-		E27F21D0321336DB92A81845 /* SwiftAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3E74F7C4CB9E422DD6C2F9B /* SwiftAddressBookRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookRecord.swift; path = Pod/Classes/SwiftAddressBookRecord.swift; sourceTree = "<group>"; };
-		E9EBF34CE094E442716E3994 /* RSCode93Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode93Generator.swift; path = Source/RSCode93Generator.swift; sourceTree = "<group>"; };
-		ED6B9C9A271CD2FBB4263F9C /* Pods-Facebump-RSBarcodes_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-RSBarcodes_Swift.xcconfig"; sourceTree = "<group>"; };
-		F9324F563912B084DDA6132F /* Pods-Facebump-RSBarcodes_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Facebump-RSBarcodes_Swift.modulemap"; sourceTree = "<group>"; };
-		FFCE89F03128923750AC86D5 /* RSUnifiedCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSUnifiedCodeGenerator.swift; path = Source/RSUnifiedCodeGenerator.swift; sourceTree = "<group>"; };
+		0064656D3992700B71880489 /* Pods-Facebump-RSBarcodes_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-RSBarcodes_Swift.xcconfig"; sourceTree = "<group>"; };
+		034AA4A2D75951670DDE0260 /* Pods_Facebump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		057F3B1A6FCF7D4FFE829AF1 /* Pods-Facebump-QRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-QRCode-umbrella.h"; sourceTree = "<group>"; };
+		0796A377A151B1EF8D610988 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		07C83D377F3567C09E2FD41D /* Pods-Facebump-SwiftAddressBook-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-SwiftAddressBook-Private.xcconfig"; sourceTree = "<group>"; };
+		0890F79C6853BCFFAF85FC21 /* Pods-Facebump-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-environment.h"; sourceTree = "<group>"; };
+		0BA4CEA5AB58DAE49FE8D769 /* Pods-Facebump-SwiftAddressBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Facebump-SwiftAddressBook.modulemap"; sourceTree = "<group>"; };
+		0C725000DE76ABC8DB56B68B /* CIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIColorExtension.swift; path = QRCode/CIColorExtension.swift; sourceTree = "<group>"; };
+		136D697F5B88C759CDA32536 /* SwiftAddressBookGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookGroup.swift; path = Pod/Classes/SwiftAddressBookGroup.swift; sourceTree = "<group>"; };
+		17253907ADFE0AB7E8320D24 /* Pods-Facebump-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Facebump-dummy.m"; sourceTree = "<group>"; };
+		18007FF99B047609296B1EA5 /* Pods-Facebump-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Facebump-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1ACF60242F235CF0A14D1D99 /* SwiftAddressBookRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookRecord.swift; path = Pod/Classes/SwiftAddressBookRecord.swift; sourceTree = "<group>"; };
+		20B9F0ACE7E95B904C06F231 /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/QRCode.swift; sourceTree = "<group>"; };
+		22326013EADFA6875A5A8BDB /* Pods-Facebump-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-umbrella.h"; sourceTree = "<group>"; };
+		24360F50CB040EDF2CD1FF03 /* SwiftAddressBookDataStructures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookDataStructures.swift; path = Pod/Classes/SwiftAddressBookDataStructures.swift; sourceTree = "<group>"; };
+		24515730675A8CB70D9C637B /* RSFocusMarkLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFocusMarkLayer.swift; path = Source/RSFocusMarkLayer.swift; sourceTree = "<group>"; };
+		24C248CEF636C123649A01B9 /* RSUPCEGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSUPCEGenerator.swift; path = Source/RSUPCEGenerator.swift; sourceTree = "<group>"; };
+		28C423CA64ED0FD707E43509 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2DB1D6754825D84C942D0EA7 /* RSBarcodes_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSBarcodes_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CACDD9A2ECD81A90667A0A /* Pods-Facebump-QRCode-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-QRCode-Private.xcconfig"; sourceTree = "<group>"; };
+		30D70ED2972F1D4A03C48992 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		30FF1EFB5BCCDD6D15201036 /* RSCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeGenerator.swift; path = Source/RSCodeGenerator.swift; sourceTree = "<group>"; };
+		3E6713225C934F6FD6644A74 /* SwiftAddressBookSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookSource.swift; path = Pod/Classes/SwiftAddressBookSource.swift; sourceTree = "<group>"; };
+		3FE6C6687058B11D8DF004B3 /* Pods-Facebump-QRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-QRCode-prefix.pch"; sourceTree = "<group>"; };
+		40B2A42221F71FF40391F913 /* Pods-Facebump-SwiftAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Facebump-SwiftAddressBook-dummy.m"; sourceTree = "<group>"; };
+		48E2679049FB60BC1E4CAE1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB5DCDD14996E0695D6BC96 /* SwiftAddressBookHelperMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookHelperMethods.swift; path = Pod/Classes/SwiftAddressBookHelperMethods.swift; sourceTree = "<group>"; };
+		4F23F8CC859394997668C4D9 /* Pods-Facebump-RSBarcodes_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-RSBarcodes_Swift-umbrella.h"; sourceTree = "<group>"; };
+		5102D88B5088A61A2D84411C /* RSCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeReaderViewController.swift; path = Source/RSCodeReaderViewController.swift; sourceTree = "<group>"; };
+		530D053A81ACB7B8CDCFEDB2 /* Pods-Facebump-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Facebump-resources.sh"; sourceTree = "<group>"; };
+		536543815FE291273A5DA169 /* RSExtendedCode39Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSExtendedCode39Generator.swift; path = Source/RSExtendedCode39Generator.swift; sourceTree = "<group>"; };
+		57762DCA883D9A9BE095C0D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7523D7132BB4DBABCF9651 /* Pods-Facebump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump.release.xcconfig"; sourceTree = "<group>"; };
+		5DA623917326CE94615A7279 /* Pods-Facebump-SwiftAddressBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-SwiftAddressBook-umbrella.h"; sourceTree = "<group>"; };
+		5DFE61FD87F3DD2E797E1300 /* Pods-Facebump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump.debug.xcconfig"; sourceTree = "<group>"; };
+		5EAE442CC1D0EDBB550EF82C /* Pods-Facebump-RSBarcodes_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Facebump-RSBarcodes_Swift-dummy.m"; sourceTree = "<group>"; };
+		64996145E2A59E4C7F3E8B42 /* Pods-Facebump-QRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Facebump-QRCode.modulemap"; sourceTree = "<group>"; };
+		6BDCDB0FF65105EDFCE05AB3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		7D8FA764AC85B40C5AF423A4 /* RSUnifiedCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSUnifiedCodeGenerator.swift; path = Source/RSUnifiedCodeGenerator.swift; sourceTree = "<group>"; };
+		7DA7B682BBE4380A621D43E0 /* Pods-Facebump-RSBarcodes_Swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-RSBarcodes_Swift-Private.xcconfig"; sourceTree = "<group>"; };
+		83039E4F4113486D3E7D4CAA /* RSITFGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSITFGenerator.swift; path = Source/RSITFGenerator.swift; sourceTree = "<group>"; };
+		8342C779AE11D56783866DB1 /* RSCode93Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode93Generator.swift; path = Source/RSCode93Generator.swift; sourceTree = "<group>"; };
+		8839CBD7337306A84EEDF98E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88A79980077F752D43B66A9D /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = QRCode/UIImageViewExtension.swift; sourceTree = "<group>"; };
+		8AD2EB50290B18EBC6FAB3E0 /* SwiftAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C660E53907F544B66864E71 /* RSCodeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeLayer.swift; path = Source/RSCodeLayer.swift; sourceTree = "<group>"; };
+		91959EE8CC15F9CB0D82DD31 /* Pods-Facebump-QRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Facebump-QRCode-dummy.m"; sourceTree = "<group>"; };
+		9BFC65CBDF358EF743A1B7E2 /* Pods-Facebump-QRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-QRCode.xcconfig"; sourceTree = "<group>"; };
+		A47B00034A0A97D7D26D73E2 /* Pods-Facebump-SwiftAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Facebump-SwiftAddressBook.xcconfig"; sourceTree = "<group>"; };
+		AD2D7F2ACDF30D32B6CF9842 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Source/StringExtension.swift; sourceTree = "<group>"; };
+		ADA457C7BCED9B33F5EB00F4 /* RSCode39Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode39Generator.swift; path = Source/RSCode39Generator.swift; sourceTree = "<group>"; };
+		AFC12A1D860434630C751412 /* RSEANGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSEANGenerator.swift; path = Source/RSEANGenerator.swift; sourceTree = "<group>"; };
+		AFD265F7000BE0304B126CA6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B39FF911CE4A49856C81E7D0 /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48F3571633B7C57D45EBDF6 /* RSITF14Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSITF14Generator.swift; path = Source/RSITF14Generator.swift; sourceTree = "<group>"; };
+		B89C07AFB406963329BD0EE5 /* RSCode128Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode128Generator.swift; path = Source/RSCode128Generator.swift; sourceTree = "<group>"; };
+		BC051E4434B8A8E0C3454842 /* SwiftAddressBookWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookWrapper.swift; path = Pod/Classes/SwiftAddressBookWrapper.swift; sourceTree = "<group>"; };
+		C18CB65CF8362CCC9A3448A8 /* Pods-Facebump.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Facebump.modulemap"; sourceTree = "<group>"; };
+		CC2B778D482A448378BE4AAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1EDEE41543EB4230DFE0C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D4DAD529FC01AD960092EC /* RSCornersLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCornersLayer.swift; path = Source/RSCornersLayer.swift; sourceTree = "<group>"; };
+		DD413F81A196A89AE5958CBD /* Pods-Facebump-RSBarcodes_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-RSBarcodes_Swift-prefix.pch"; sourceTree = "<group>"; };
+		DE34E47EEE7B1DFABB157C90 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E05957E21DDB40FB3A0E93BC /* RSCode39Mod43Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode39Mod43Generator.swift; path = Source/RSCode39Mod43Generator.swift; sourceTree = "<group>"; };
+		E3132EDF6BF9B3FAB29E10D7 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Source/UIColorExtension.swift; sourceTree = "<group>"; };
+		E3AC1CE0CEB997E1070456F6 /* Pods-Facebump-RSBarcodes_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Facebump-RSBarcodes_Swift.modulemap"; sourceTree = "<group>"; };
+		E926558E242F91049F4C70AA /* SwiftAddressBookPerson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookPerson.swift; path = Pod/Classes/SwiftAddressBookPerson.swift; sourceTree = "<group>"; };
+		EA861E61B94017392A8A318D /* Pods-Facebump-SwiftAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Facebump-SwiftAddressBook-prefix.pch"; sourceTree = "<group>"; };
+		EF05FF57CE49F5F411FD3631 /* Pods-Facebump-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Facebump-acknowledgements.plist"; sourceTree = "<group>"; };
+		F99A20CB21ADD2BE2D196B76 /* Pods-Facebump-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Facebump-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1472C5538CDDF1226CF7CE68 /* Frameworks */ = {
+		0D91D0EF4FC825236B63F443 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610FFAD66C68006CC3B9C619 /* AddressBook.framework in Frameworks */,
-				6164831D1D5C229F226C0697 /* AddressBookUI.framework in Frameworks */,
-				FEE7FDD43366C41002F35C5F /* Foundation.framework in Frameworks */,
+				BB7CEFB7A4E242E99EEA42A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E3FE08BBED2A6525183F608 /* Frameworks */ = {
+		B6DD10CECFFE8C8B50D51205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0327934EFD0308018B6C5AD6 /* AVFoundation.framework in Frameworks */,
-				123B82A64AADFA8DEF6E2A40 /* CoreImage.framework in Frameworks */,
-				EB09E9F5E1052E88A2E77306 /* Foundation.framework in Frameworks */,
-				A765CD21EFD8E2345489E898 /* QuartzCore.framework in Frameworks */,
+				18D6E3491F383F8BACCC5652 /* AddressBook.framework in Frameworks */,
+				4E318BE0F6D430132D142297 /* AddressBookUI.framework in Frameworks */,
+				C06618630068617790413399 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94F9AC026BD52A24B6890E3A /* Frameworks */ = {
+		BB9742D9F5F1478C54078719 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5544893C5DE33ABDC5296569 /* Foundation.framework in Frameworks */,
+				75DEAFF0F9A00486EB636671 /* AVFoundation.framework in Frameworks */,
+				C8334594395138238560ECD7 /* CoreImage.framework in Frameworks */,
+				F33E0E88BE71E700417DA597 /* Foundation.framework in Frameworks */,
+				1150C9990EF93E6AADCC9B8C /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E918B12460B578CC94659577 /* Frameworks */ = {
+		EC2EFC9B62DBCDA9F2FEC2F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12108CF7190BE118F3FA85C9 /* Foundation.framework in Frameworks */,
+				C7492B71C7CEC9F13FD84C2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E8929746902E231D4D60AC5 /* Products */ = {
+		12962578153A40931CE8AE57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5614FA42D28A8E016F798E6C /* Pods_Facebump.framework */,
-				BBD8E86ABFB22550798B8CB9 /* QRCode.framework */,
-				B53AA037096CA98E9821D8F3 /* RSBarcodes_Swift.framework */,
-				E27F21D0321336DB92A81845 /* SwiftAddressBook.framework */,
+				034AA4A2D75951670DDE0260 /* Pods_Facebump.framework */,
+				B39FF911CE4A49856C81E7D0 /* QRCode.framework */,
+				2DB1D6754825D84C942D0EA7 /* RSBarcodes_Swift.framework */,
+				8AD2EB50290B18EBC6FAB3E0 /* SwiftAddressBook.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		129F5B008601E35CA74AC566 /* Support Files */ = {
+		178057D9701DCE17455F3CFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8BC97FEFDD4AA258ACC4B6BE /* Info.plist */,
-				F9324F563912B084DDA6132F /* Pods-Facebump-RSBarcodes_Swift.modulemap */,
-				ED6B9C9A271CD2FBB4263F9C /* Pods-Facebump-RSBarcodes_Swift.xcconfig */,
-				ADD7975302DF97F458E50CAB /* Pods-Facebump-RSBarcodes_Swift-Private.xcconfig */,
-				D0EC3A4D88BFA04773317756 /* Pods-Facebump-RSBarcodes_Swift-dummy.m */,
-				DF34F502E909F5CCC98C20DD /* Pods-Facebump-RSBarcodes_Swift-prefix.pch */,
-				6686F320891AFFD678F39F36 /* Pods-Facebump-RSBarcodes_Swift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Facebump-RSBarcodes_Swift";
-			sourceTree = "<group>";
-		};
-		12F7CE6BAFE0967388BF213E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				616B805B45C1F9A9CC501EDF /* QRCode */,
-				519039B7DFC50E0F6A1A9392 /* RSBarcodes_Swift */,
-				51652B0FA8C21B5021943041 /* SwiftAddressBook */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		195381109E071665A6DCD222 = {
-			isa = PBXGroup;
-			children = (
-				C990E987DA00EA420760F5A1 /* Podfile */,
-				4C3EE84176A2E07D30F3D693 /* Frameworks */,
-				12F7CE6BAFE0967388BF213E /* Pods */,
-				0E8929746902E231D4D60AC5 /* Products */,
-				F589CC35037C8A094499AC99 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		4C3EE84176A2E07D30F3D693 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8B593F2BC5C537784D3426E2 /* iOS */,
+				6383E7A57C386A0723086465 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		501DDCD6B154A222CBD2D28B /* Pods-Facebump */ = {
+		1C436828D8524195D1B8D945 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				053EF3510DAE2E14278885AC /* Info.plist */,
-				6BF2CE904FB596195701515F /* Pods-Facebump.modulemap */,
-				2D9C2157229AF5916100654C /* Pods-Facebump-acknowledgements.markdown */,
-				BBB9C8F5651882C8FAFE2C6A /* Pods-Facebump-acknowledgements.plist */,
-				5F9BEE8CAC77ECA1E7CAF206 /* Pods-Facebump-dummy.m */,
-				03B9D26D116141D1AEDAC811 /* Pods-Facebump-environment.h */,
-				476995F666ADABC516A5C05E /* Pods-Facebump-frameworks.sh */,
-				B4CF08468C72A04AFA9A9525 /* Pods-Facebump-resources.sh */,
-				CD34F85661BC68A0386FEDAA /* Pods-Facebump-umbrella.h */,
-				8126EAB8E690284BD6977826 /* Pods-Facebump.debug.xcconfig */,
-				7C6454282D3FE6502E3B5582 /* Pods-Facebump.release.xcconfig */,
+				4266BD0998199FB0C77EBB22 /* Pods-Facebump */,
 			);
-			name = "Pods-Facebump";
-			path = "Target Support Files/Pods-Facebump";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		51652B0FA8C21B5021943041 /* SwiftAddressBook */ = {
+		255472827720B75D5C27DF98 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD0D6AB663BB061E08600DAE /* SwiftAddressBookDataStructures.swift */,
-				3D638B5174AA7765439D70E6 /* SwiftAddressBookGroup.swift */,
-				99BCEA3B7F6689FA1376E5A7 /* SwiftAddressBookHelperMethods.swift */,
-				9BB22C2FBB1B21199D11AAB0 /* SwiftAddressBookPerson.swift */,
-				E3E74F7C4CB9E422DD6C2F9B /* SwiftAddressBookRecord.swift */,
-				0FE2A7840B16C03228B5BA68 /* SwiftAddressBookSource.swift */,
-				44CF7D167155D88FFDD2478F /* SwiftAddressBookWrapper.swift */,
-				CE8890D9D8094C270B616160 /* Support Files */,
-			);
-			path = SwiftAddressBook;
-			sourceTree = "<group>";
-		};
-		519039B7DFC50E0F6A1A9392 /* RSBarcodes_Swift */ = {
-			isa = PBXGroup;
-			children = (
-				A4C4580F31944135F730792A /* RSCode128Generator.swift */,
-				881263A7EC809A4D22B9DA2D /* RSCode39Generator.swift */,
-				C291666BEC83CDBB161026AF /* RSCode39Mod43Generator.swift */,
-				E9EBF34CE094E442716E3994 /* RSCode93Generator.swift */,
-				8E0C5E33177FB88E14BFFB4E /* RSCodeGenerator.swift */,
-				C682A637C09ABD85633E5133 /* RSCodeLayer.swift */,
-				28579E8C1633510F743F3CCE /* RSCodeReaderViewController.swift */,
-				47C64FB0B3818B9436ABE320 /* RSCornersLayer.swift */,
-				5829996BA09909C0ECADCC83 /* RSEANGenerator.swift */,
-				B4114A744CFE2E0EC5DCB963 /* RSExtendedCode39Generator.swift */,
-				5B05D470AE84169B17568AD3 /* RSFocusMarkLayer.swift */,
-				87FEFB198508BCF926313541 /* RSITF14Generator.swift */,
-				3EBFCA844D95D4A52C672D69 /* RSITFGenerator.swift */,
-				6799432C3F3CF6DF0C3AE62A /* RSUPCEGenerator.swift */,
-				FFCE89F03128923750AC86D5 /* RSUnifiedCodeGenerator.swift */,
-				5334363C4152D68662749800 /* StringExtension.swift */,
-				CCFD8F5409E2585FC9F23437 /* UIColorExtension.swift */,
-				129F5B008601E35CA74AC566 /* Support Files */,
-			);
-			path = RSBarcodes_Swift;
-			sourceTree = "<group>";
-		};
-		616B805B45C1F9A9CC501EDF /* QRCode */ = {
-			isa = PBXGroup;
-			children = (
-				AA27136459819DC14E82F844 /* CIColorExtension.swift */,
-				8D23DF47ED9EE67688F5512D /* QRCode.swift */,
-				02BB54C37184C12AD4262BBE /* UIImageViewExtension.swift */,
-				ED0B370CD1C83ACF81F07A11 /* Support Files */,
-			);
-			path = QRCode;
-			sourceTree = "<group>";
-		};
-		8B593F2BC5C537784D3426E2 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				9B7AF8D681F0DC8080898DF1 /* AVFoundation.framework */,
-				65C9B6A3890C4D4BF61C4D7C /* AddressBook.framework */,
-				A6010020C5F43BA300413D89 /* AddressBookUI.framework */,
-				188D425D5AFBC7C92C8FBD77 /* CoreImage.framework */,
-				BD5052D6F771DC57DAAC3557 /* Foundation.framework */,
-				387C7F9327D895A703C208CA /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CE8890D9D8094C270B616160 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				314015F2BAE6EFD388C9D996 /* Info.plist */,
-				D9ED4EAEBECA01BC8CF2AE6D /* Pods-Facebump-SwiftAddressBook.modulemap */,
-				B526AF4F4B303262AFBF233B /* Pods-Facebump-SwiftAddressBook.xcconfig */,
-				B775DA075E2149FBABEDB201 /* Pods-Facebump-SwiftAddressBook-Private.xcconfig */,
-				3D30558D8B1023FA54F35373 /* Pods-Facebump-SwiftAddressBook-dummy.m */,
-				26AEF11D020E5B900590F0CA /* Pods-Facebump-SwiftAddressBook-prefix.pch */,
-				0073C8B5739E76FF368AE08B /* Pods-Facebump-SwiftAddressBook-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Facebump-SwiftAddressBook";
-			sourceTree = "<group>";
-		};
-		ED0B370CD1C83ACF81F07A11 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CA82150053008E7BD330527E /* Info.plist */,
-				2AB0CF4B66048B58A5EED751 /* Pods-Facebump-QRCode.modulemap */,
-				8325D9E3A775237CF15D54A3 /* Pods-Facebump-QRCode.xcconfig */,
-				DBFD9CF773A22DDDD1BF479F /* Pods-Facebump-QRCode-Private.xcconfig */,
-				8D48F379C063041FB5D73C8E /* Pods-Facebump-QRCode-dummy.m */,
-				5EA9FA47B2C7F6E96CF4C55B /* Pods-Facebump-QRCode-prefix.pch */,
-				40C5381D6D9F394F748F63BB /* Pods-Facebump-QRCode-umbrella.h */,
+				48E2679049FB60BC1E4CAE1E /* Info.plist */,
+				64996145E2A59E4C7F3E8B42 /* Pods-Facebump-QRCode.modulemap */,
+				9BFC65CBDF358EF743A1B7E2 /* Pods-Facebump-QRCode.xcconfig */,
+				30CACDD9A2ECD81A90667A0A /* Pods-Facebump-QRCode-Private.xcconfig */,
+				91959EE8CC15F9CB0D82DD31 /* Pods-Facebump-QRCode-dummy.m */,
+				3FE6C6687058B11D8DF004B3 /* Pods-Facebump-QRCode-prefix.pch */,
+				057F3B1A6FCF7D4FFE829AF1 /* Pods-Facebump-QRCode-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Facebump-QRCode";
 			sourceTree = "<group>";
 		};
-		F589CC35037C8A094499AC99 /* Targets Support Files */ = {
+		4266BD0998199FB0C77EBB22 /* Pods-Facebump */ = {
 			isa = PBXGroup;
 			children = (
-				501DDCD6B154A222CBD2D28B /* Pods-Facebump */,
+				CC2B778D482A448378BE4AAD /* Info.plist */,
+				C18CB65CF8362CCC9A3448A8 /* Pods-Facebump.modulemap */,
+				18007FF99B047609296B1EA5 /* Pods-Facebump-acknowledgements.markdown */,
+				EF05FF57CE49F5F411FD3631 /* Pods-Facebump-acknowledgements.plist */,
+				17253907ADFE0AB7E8320D24 /* Pods-Facebump-dummy.m */,
+				0890F79C6853BCFFAF85FC21 /* Pods-Facebump-environment.h */,
+				F99A20CB21ADD2BE2D196B76 /* Pods-Facebump-frameworks.sh */,
+				530D053A81ACB7B8CDCFEDB2 /* Pods-Facebump-resources.sh */,
+				22326013EADFA6875A5A8BDB /* Pods-Facebump-umbrella.h */,
+				5DFE61FD87F3DD2E797E1300 /* Pods-Facebump.debug.xcconfig */,
+				5B7523D7132BB4DBABCF9651 /* Pods-Facebump.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Facebump";
+			path = "Target Support Files/Pods-Facebump";
+			sourceTree = "<group>";
+		};
+		6383E7A57C386A0723086465 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				28C423CA64ED0FD707E43509 /* AVFoundation.framework */,
+				0796A377A151B1EF8D610988 /* AddressBook.framework */,
+				30D70ED2972F1D4A03C48992 /* AddressBookUI.framework */,
+				6BDCDB0FF65105EDFCE05AB3 /* CoreImage.framework */,
+				8839CBD7337306A84EEDF98E /* Foundation.framework */,
+				DE34E47EEE7B1DFABB157C90 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		692532614EBE2626E99343A0 /* RSBarcodes_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B89C07AFB406963329BD0EE5 /* RSCode128Generator.swift */,
+				ADA457C7BCED9B33F5EB00F4 /* RSCode39Generator.swift */,
+				E05957E21DDB40FB3A0E93BC /* RSCode39Mod43Generator.swift */,
+				8342C779AE11D56783866DB1 /* RSCode93Generator.swift */,
+				30FF1EFB5BCCDD6D15201036 /* RSCodeGenerator.swift */,
+				8C660E53907F544B66864E71 /* RSCodeLayer.swift */,
+				5102D88B5088A61A2D84411C /* RSCodeReaderViewController.swift */,
+				D2D4DAD529FC01AD960092EC /* RSCornersLayer.swift */,
+				AFC12A1D860434630C751412 /* RSEANGenerator.swift */,
+				536543815FE291273A5DA169 /* RSExtendedCode39Generator.swift */,
+				24515730675A8CB70D9C637B /* RSFocusMarkLayer.swift */,
+				B48F3571633B7C57D45EBDF6 /* RSITF14Generator.swift */,
+				83039E4F4113486D3E7D4CAA /* RSITFGenerator.swift */,
+				24C248CEF636C123649A01B9 /* RSUPCEGenerator.swift */,
+				7D8FA764AC85B40C5AF423A4 /* RSUnifiedCodeGenerator.swift */,
+				AD2D7F2ACDF30D32B6CF9842 /* StringExtension.swift */,
+				E3132EDF6BF9B3FAB29E10D7 /* UIColorExtension.swift */,
+				CF890CEEBC24A6410946A142 /* Support Files */,
+			);
+			path = RSBarcodes_Swift;
+			sourceTree = "<group>";
+		};
+		83CF48AA1237499020B0AC35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C3C6C7D8BAD76DB49739E76 /* QRCode */,
+				692532614EBE2626E99343A0 /* RSBarcodes_Swift */,
+				A9C37743F6F726C744969296 /* SwiftAddressBook */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C3C6C7D8BAD76DB49739E76 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				0C725000DE76ABC8DB56B68B /* CIColorExtension.swift */,
+				20B9F0ACE7E95B904C06F231 /* QRCode.swift */,
+				88A79980077F752D43B66A9D /* UIImageViewExtension.swift */,
+				255472827720B75D5C27DF98 /* Support Files */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		982E1C26134006DEFECD8C14 = {
+			isa = PBXGroup;
+			children = (
+				AFD265F7000BE0304B126CA6 /* Podfile */,
+				178057D9701DCE17455F3CFF /* Frameworks */,
+				83CF48AA1237499020B0AC35 /* Pods */,
+				12962578153A40931CE8AE57 /* Products */,
+				1C436828D8524195D1B8D945 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C37743F6F726C744969296 /* SwiftAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				24360F50CB040EDF2CD1FF03 /* SwiftAddressBookDataStructures.swift */,
+				136D697F5B88C759CDA32536 /* SwiftAddressBookGroup.swift */,
+				4CB5DCDD14996E0695D6BC96 /* SwiftAddressBookHelperMethods.swift */,
+				E926558E242F91049F4C70AA /* SwiftAddressBookPerson.swift */,
+				1ACF60242F235CF0A14D1D99 /* SwiftAddressBookRecord.swift */,
+				3E6713225C934F6FD6644A74 /* SwiftAddressBookSource.swift */,
+				BC051E4434B8A8E0C3454842 /* SwiftAddressBookWrapper.swift */,
+				AD74E9EC60B0D2DD7E12B45B /* Support Files */,
+			);
+			path = SwiftAddressBook;
+			sourceTree = "<group>";
+		};
+		AD74E9EC60B0D2DD7E12B45B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF1EDEE41543EB4230DFE0C4 /* Info.plist */,
+				0BA4CEA5AB58DAE49FE8D769 /* Pods-Facebump-SwiftAddressBook.modulemap */,
+				A47B00034A0A97D7D26D73E2 /* Pods-Facebump-SwiftAddressBook.xcconfig */,
+				07C83D377F3567C09E2FD41D /* Pods-Facebump-SwiftAddressBook-Private.xcconfig */,
+				40B2A42221F71FF40391F913 /* Pods-Facebump-SwiftAddressBook-dummy.m */,
+				EA861E61B94017392A8A318D /* Pods-Facebump-SwiftAddressBook-prefix.pch */,
+				5DA623917326CE94615A7279 /* Pods-Facebump-SwiftAddressBook-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Facebump-SwiftAddressBook";
+			sourceTree = "<group>";
+		};
+		CF890CEEBC24A6410946A142 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57762DCA883D9A9BE095C0D6 /* Info.plist */,
+				E3AC1CE0CEB997E1070456F6 /* Pods-Facebump-RSBarcodes_Swift.modulemap */,
+				0064656D3992700B71880489 /* Pods-Facebump-RSBarcodes_Swift.xcconfig */,
+				7DA7B682BBE4380A621D43E0 /* Pods-Facebump-RSBarcodes_Swift-Private.xcconfig */,
+				5EAE442CC1D0EDBB550EF82C /* Pods-Facebump-RSBarcodes_Swift-dummy.m */,
+				DD413F81A196A89AE5958CBD /* Pods-Facebump-RSBarcodes_Swift-prefix.pch */,
+				4F23F8CC859394997668C4D9 /* Pods-Facebump-RSBarcodes_Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Facebump-RSBarcodes_Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		50E5E64E42E4E3AAD312DC31 /* Headers */ = {
+		0033F706C0A0323373331B1B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14F0A33CA81199305D099DF8 /* Pods-Facebump-QRCode-umbrella.h in Headers */,
+				11F565EA04BAA60D36BEFD6D /* Pods-Facebump-RSBarcodes_Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		592196D33BCE11F30529A5D8 /* Headers */ = {
+		74A5878428D95E2E3B61CAEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320BFC57B731CA0E193EAD62 /* Pods-Facebump-RSBarcodes_Swift-umbrella.h in Headers */,
+				A2E9B8935C15C91BEDDAAD32 /* Pods-Facebump-SwiftAddressBook-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F5A1E5BA7B398AB60F79AE2 /* Headers */ = {
+		D7F39AD6476858356E098AAB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60B90E5E7CAE7281149095BF /* Pods-Facebump-umbrella.h in Headers */,
+				4EBF9C5E02A7B0D3C097B2D4 /* Pods-Facebump-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEF3827EDCD31AB0835B428A /* Headers */ = {
+		DE5820E88E4AA115F99F9CCC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA45BF589AFD7A01E0A82C60 /* Pods-Facebump-SwiftAddressBook-umbrella.h in Headers */,
+				5E8C7581612B9A62628F399C /* Pods-Facebump-QRCode-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1EE23A3651C6F9F125C29DE2 /* Pods-Facebump */ = {
+		2720000A2AB95720205CB225 /* Pods-Facebump-SwiftAddressBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DF983F36D9D9C38C81C953A /* Build configuration list for PBXNativeTarget "Pods-Facebump" */;
+			buildConfigurationList = 3C9506B87778A45D5552E14E /* Build configuration list for PBXNativeTarget "Pods-Facebump-SwiftAddressBook" */;
 			buildPhases = (
-				0539D67BDF408C68EE046A2B /* Sources */,
-				E918B12460B578CC94659577 /* Frameworks */,
-				5F5A1E5BA7B398AB60F79AE2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A552013F172E225279F5FE27 /* PBXTargetDependency */,
-				C83DB26C1B2A6107E9F85770 /* PBXTargetDependency */,
-				5FEA2BBF2070EB15E55896AA /* PBXTargetDependency */,
-			);
-			name = "Pods-Facebump";
-			productName = "Pods-Facebump";
-			productReference = 5614FA42D28A8E016F798E6C /* Pods_Facebump.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2FD72AFCE1BEB8208B6DBC2C /* Pods-Facebump-RSBarcodes_Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81989B5DF2596B387FFA5576 /* Build configuration list for PBXNativeTarget "Pods-Facebump-RSBarcodes_Swift" */;
-			buildPhases = (
-				EBB640859B96E327C69A6798 /* Sources */,
-				7E3FE08BBED2A6525183F608 /* Frameworks */,
-				592196D33BCE11F30529A5D8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Facebump-RSBarcodes_Swift";
-			productName = "Pods-Facebump-RSBarcodes_Swift";
-			productReference = B53AA037096CA98E9821D8F3 /* RSBarcodes_Swift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		92DBAD188642F81A9AF1FB2B /* Pods-Facebump-SwiftAddressBook */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9D44430DDC12E17EF730651 /* Build configuration list for PBXNativeTarget "Pods-Facebump-SwiftAddressBook" */;
-			buildPhases = (
-				8125D6D2555F6CADACF1BF07 /* Sources */,
-				1472C5538CDDF1226CF7CE68 /* Frameworks */,
-				CEF3827EDCD31AB0835B428A /* Headers */,
+				D5466B90615BFA71419C2EBD /* Sources */,
+				B6DD10CECFFE8C8B50D51205 /* Frameworks */,
+				74A5878428D95E2E3B61CAEB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -456,16 +419,53 @@
 			);
 			name = "Pods-Facebump-SwiftAddressBook";
 			productName = "Pods-Facebump-SwiftAddressBook";
-			productReference = E27F21D0321336DB92A81845 /* SwiftAddressBook.framework */;
+			productReference = 8AD2EB50290B18EBC6FAB3E0 /* SwiftAddressBook.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B437E8B8E1112DDE60FBF6B1 /* Pods-Facebump-QRCode */ = {
+		6FB5FB385C26DE6CE6FFEA70 /* Pods-Facebump */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61D09A36E4C7F37CA31EE534 /* Build configuration list for PBXNativeTarget "Pods-Facebump-QRCode" */;
+			buildConfigurationList = E8A4C917ED58560B2F691405 /* Build configuration list for PBXNativeTarget "Pods-Facebump" */;
 			buildPhases = (
-				6DBE384C4A6F190A1A31B9EC /* Sources */,
-				94F9AC026BD52A24B6890E3A /* Frameworks */,
-				50E5E64E42E4E3AAD312DC31 /* Headers */,
+				2061C59813307AED9191B957 /* Sources */,
+				0D91D0EF4FC825236B63F443 /* Frameworks */,
+				D7F39AD6476858356E098AAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87A227A65F5142AE8EDA5D0 /* PBXTargetDependency */,
+				BAB5BDF5E38C893355BF2E59 /* PBXTargetDependency */,
+				17A44B6F1E5AD128AB0B12FC /* PBXTargetDependency */,
+			);
+			name = "Pods-Facebump";
+			productName = "Pods-Facebump";
+			productReference = 034AA4A2D75951670DDE0260 /* Pods_Facebump.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EEDB0F786DA8EC501D3C0AB /* Pods-Facebump-RSBarcodes_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AFE63EC0E0058364587225 /* Build configuration list for PBXNativeTarget "Pods-Facebump-RSBarcodes_Swift" */;
+			buildPhases = (
+				43F082A8615E3B4AC62226EA /* Sources */,
+				BB9742D9F5F1478C54078719 /* Frameworks */,
+				0033F706C0A0323373331B1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Facebump-RSBarcodes_Swift";
+			productName = "Pods-Facebump-RSBarcodes_Swift";
+			productReference = 2DB1D6754825D84C942D0EA7 /* RSBarcodes_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF0B98A1AB14AA6F243E3197 /* Pods-Facebump-QRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363E406155EC63FC138EBD69 /* Build configuration list for PBXNativeTarget "Pods-Facebump-QRCode" */;
+			buildPhases = (
+				97F671F301DAD6C2FB482028 /* Sources */,
+				EC2EFC9B62DBCDA9F2FEC2F6 /* Frameworks */,
+				DE5820E88E4AA115F99F9CCC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -473,151 +473,122 @@
 			);
 			name = "Pods-Facebump-QRCode";
 			productName = "Pods-Facebump-QRCode";
-			productReference = BBD8E86ABFB22550798B8CB9 /* QRCode.framework */;
+			productReference = B39FF911CE4A49856C81E7D0 /* QRCode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C897B02E9B94E84F42C1A174 /* Project object */ = {
+		C6D460FC739C2C1C985B9402 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 382FF480DEA82E3C0FEB8A47 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 72DD4A97284AC0BDAA77C7CA /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 195381109E071665A6DCD222;
-			productRefGroup = 0E8929746902E231D4D60AC5 /* Products */;
+			mainGroup = 982E1C26134006DEFECD8C14;
+			productRefGroup = 12962578153A40931CE8AE57 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EE23A3651C6F9F125C29DE2 /* Pods-Facebump */,
-				B437E8B8E1112DDE60FBF6B1 /* Pods-Facebump-QRCode */,
-				2FD72AFCE1BEB8208B6DBC2C /* Pods-Facebump-RSBarcodes_Swift */,
-				92DBAD188642F81A9AF1FB2B /* Pods-Facebump-SwiftAddressBook */,
+				6FB5FB385C26DE6CE6FFEA70 /* Pods-Facebump */,
+				FF0B98A1AB14AA6F243E3197 /* Pods-Facebump-QRCode */,
+				8EEDB0F786DA8EC501D3C0AB /* Pods-Facebump-RSBarcodes_Swift */,
+				2720000A2AB95720205CB225 /* Pods-Facebump-SwiftAddressBook */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0539D67BDF408C68EE046A2B /* Sources */ = {
+		2061C59813307AED9191B957 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8752C842523C516110796A5B /* Pods-Facebump-dummy.m in Sources */,
+				2E149857CDEA232954968123 /* Pods-Facebump-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DBE384C4A6F190A1A31B9EC /* Sources */ = {
+		43F082A8615E3B4AC62226EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C78B9D4647230A4E4DDBB76 /* CIColorExtension.swift in Sources */,
-				6DCC425B0BF32F198914F1D7 /* Pods-Facebump-QRCode-dummy.m in Sources */,
-				8077B1BA719CED09FEF40231 /* QRCode.swift in Sources */,
-				9FA4AAB17E41282D88D84CEB /* UIImageViewExtension.swift in Sources */,
+				9317996EAE2BD8F5E12B40DD /* Pods-Facebump-RSBarcodes_Swift-dummy.m in Sources */,
+				C859F3DE3BCE5306BF39BAD3 /* RSCode128Generator.swift in Sources */,
+				DCF7572D5EC383094605C8D2 /* RSCode39Generator.swift in Sources */,
+				32760FFC3DF16F6996DFCE08 /* RSCode39Mod43Generator.swift in Sources */,
+				95BBCE42EEE43A179149BBB1 /* RSCode93Generator.swift in Sources */,
+				22BC33C0B81A503AFDF251C3 /* RSCodeGenerator.swift in Sources */,
+				B5F60B81E8AD056C2A2673FD /* RSCodeLayer.swift in Sources */,
+				45E3B29F1DB2BA674C3A2A15 /* RSCodeReaderViewController.swift in Sources */,
+				D196D8E1461ED9F82D74F1E3 /* RSCornersLayer.swift in Sources */,
+				087770E6EB34E86E0294CF58 /* RSEANGenerator.swift in Sources */,
+				7F31BE55FAED787CAF6E6C52 /* RSExtendedCode39Generator.swift in Sources */,
+				2AC3E099DD6282B81A50BCFF /* RSFocusMarkLayer.swift in Sources */,
+				16C927E3F069C243527C1E1F /* RSITF14Generator.swift in Sources */,
+				7475BB4F5383ABD9913BC3A1 /* RSITFGenerator.swift in Sources */,
+				A4004E40E4DD422208C89FF9 /* RSUPCEGenerator.swift in Sources */,
+				EB92F9E500864171E12DF5E1 /* RSUnifiedCodeGenerator.swift in Sources */,
+				DC0A190F2E09894C1AA757C7 /* StringExtension.swift in Sources */,
+				B88448AE0C1F58ED4BC48DC1 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8125D6D2555F6CADACF1BF07 /* Sources */ = {
+		97F671F301DAD6C2FB482028 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA3FE0F82CEAF193E2528009 /* Pods-Facebump-SwiftAddressBook-dummy.m in Sources */,
-				88E136ADB084B6741F18EB02 /* SwiftAddressBookDataStructures.swift in Sources */,
-				1C8ADE63F70CE4B6636085ED /* SwiftAddressBookGroup.swift in Sources */,
-				1FFFF2FA0F38246CE5C9F0D7 /* SwiftAddressBookHelperMethods.swift in Sources */,
-				E43A032AC2E06108E831E719 /* SwiftAddressBookPerson.swift in Sources */,
-				92B2DB28D0BFB19415B753FC /* SwiftAddressBookRecord.swift in Sources */,
-				EC485F9BAE67B17781D0694C /* SwiftAddressBookSource.swift in Sources */,
-				F873C7EDD25C6CC6C63E727E /* SwiftAddressBookWrapper.swift in Sources */,
+				5D713CADA6EF8ED3347D1438 /* CIColorExtension.swift in Sources */,
+				E870588C7ADFE10C6A9E66D5 /* Pods-Facebump-QRCode-dummy.m in Sources */,
+				7E23F572BAE30BA9E6DBE48F /* QRCode.swift in Sources */,
+				EDFC295D8579C1E63A840627 /* UIImageViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBB640859B96E327C69A6798 /* Sources */ = {
+		D5466B90615BFA71419C2EBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A3CDF573CA8A485396980FB /* Pods-Facebump-RSBarcodes_Swift-dummy.m in Sources */,
-				0E2905845213A9C3083222E2 /* RSCode128Generator.swift in Sources */,
-				7DEE5FEAA198A33E62826761 /* RSCode39Generator.swift in Sources */,
-				00AADAB60AB72773FD27A276 /* RSCode39Mod43Generator.swift in Sources */,
-				C6CB19F0295078F541DFB651 /* RSCode93Generator.swift in Sources */,
-				DE387F67B1B19E4905CE162C /* RSCodeGenerator.swift in Sources */,
-				ED41201EEF83B6475150A9D3 /* RSCodeLayer.swift in Sources */,
-				69D492A11DAF4E270A6CE1B0 /* RSCodeReaderViewController.swift in Sources */,
-				F6B9FD540EDDAA54990D58C4 /* RSCornersLayer.swift in Sources */,
-				15D74709887FBE81F31DDF10 /* RSEANGenerator.swift in Sources */,
-				15A1105A67EC950F2A445E4A /* RSExtendedCode39Generator.swift in Sources */,
-				31E0A670C642FE4069796F6D /* RSFocusMarkLayer.swift in Sources */,
-				D484FFB1E5828D42E3928484 /* RSITF14Generator.swift in Sources */,
-				AD4FEF167C739DB86C52BA04 /* RSITFGenerator.swift in Sources */,
-				96B6D54BD7DFD21E81E47CD1 /* RSUPCEGenerator.swift in Sources */,
-				7E4256472DC4B17A259AC9C2 /* RSUnifiedCodeGenerator.swift in Sources */,
-				A74EF0DAE2B6D4523FFE12F6 /* StringExtension.swift in Sources */,
-				10EE09B01B8B7D3055C6F10C /* UIColorExtension.swift in Sources */,
+				FA2C38CCEDD842C14F96F268 /* Pods-Facebump-SwiftAddressBook-dummy.m in Sources */,
+				5EFA83E6B3FB724DDDF3057A /* SwiftAddressBookDataStructures.swift in Sources */,
+				12B200A501E170B85316A3F3 /* SwiftAddressBookGroup.swift in Sources */,
+				F53E8E6DC26C85BB9A94F930 /* SwiftAddressBookHelperMethods.swift in Sources */,
+				342D837C5DBEEF8396730CBC /* SwiftAddressBookPerson.swift in Sources */,
+				D61AD223D481865E6F688186 /* SwiftAddressBookRecord.swift in Sources */,
+				C8883B6D55F4F833D51B52D3 /* SwiftAddressBookSource.swift in Sources */,
+				6914968116D416CFD27EEE65 /* SwiftAddressBookWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5FEA2BBF2070EB15E55896AA /* PBXTargetDependency */ = {
+		17A44B6F1E5AD128AB0B12FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Facebump-SwiftAddressBook";
-			target = 92DBAD188642F81A9AF1FB2B /* Pods-Facebump-SwiftAddressBook */;
-			targetProxy = D24B37934499F675B1DA98C8 /* PBXContainerItemProxy */;
+			target = 2720000A2AB95720205CB225 /* Pods-Facebump-SwiftAddressBook */;
+			targetProxy = 6E14D4B11D5A11924FB92A35 /* PBXContainerItemProxy */;
 		};
-		A552013F172E225279F5FE27 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Facebump-QRCode";
-			target = B437E8B8E1112DDE60FBF6B1 /* Pods-Facebump-QRCode */;
-			targetProxy = FAF8E37C686D0FC2A6DDDD17 /* PBXContainerItemProxy */;
-		};
-		C83DB26C1B2A6107E9F85770 /* PBXTargetDependency */ = {
+		BAB5BDF5E38C893355BF2E59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Facebump-RSBarcodes_Swift";
-			target = 2FD72AFCE1BEB8208B6DBC2C /* Pods-Facebump-RSBarcodes_Swift */;
-			targetProxy = 8F10A16D363638C85DCD79E2 /* PBXContainerItemProxy */;
+			target = 8EEDB0F786DA8EC501D3C0AB /* Pods-Facebump-RSBarcodes_Swift */;
+			targetProxy = 53FE6854F853C1AFA8A91529 /* PBXContainerItemProxy */;
+		};
+		E87A227A65F5142AE8EDA5D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Facebump-QRCode";
+			target = FF0B98A1AB14AA6F243E3197 /* Pods-Facebump-QRCode */;
+			targetProxy = DC44C2000121121110A3085F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		060144FD39032166AD3B0B70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C6454282D3FE6502E3B5582 /* Pods-Facebump.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Facebump/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Facebump/Pods-Facebump.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Facebump;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		09E1BAE632238F0C86C6A924 /* Debug */ = {
+		404D1A61B0E3B1292E448693 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -656,7 +627,175 @@
 			};
 			name = Debug;
 		};
-		25097D90A94E746127898380 /* Release */ = {
+		4DDBC99BAA15F9376CE5D12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA7B682BBE4380A621D43E0 /* Pods-Facebump-RSBarcodes_Swift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Pods-Facebump-RSBarcodes_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Pods-Facebump-RSBarcodes_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RSBarcodes_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		570380F41E048FB878285213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30CACDD9A2ECD81A90667A0A /* Pods-Facebump-QRCode-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-QRCode/Pods-Facebump-QRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-QRCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-QRCode/Pods-Facebump-QRCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5834083084A9730B64F4FE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C83D377F3567C09E2FD41D /* Pods-Facebump-SwiftAddressBook-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-SwiftAddressBook/Pods-Facebump-SwiftAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-SwiftAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-SwiftAddressBook/Pods-Facebump-SwiftAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59FA5089375186C9F9F70BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFE61FD87F3DD2E797E1300 /* Pods-Facebump.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Facebump/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Facebump/Pods-Facebump.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Facebump;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AB653CB12D5936011C31634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30CACDD9A2ECD81A90667A0A /* Pods-Facebump-QRCode-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-QRCode/Pods-Facebump-QRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-QRCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-QRCode/Pods-Facebump-QRCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BA6CF673114CED611F046E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C83D377F3567C09E2FD41D /* Pods-Facebump-SwiftAddressBook-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-SwiftAddressBook/Pods-Facebump-SwiftAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-SwiftAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-SwiftAddressBook/Pods-Facebump-SwiftAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A21EF2E2FD7FB36522C01E6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -690,119 +829,9 @@
 			};
 			name = Release;
 		};
-		3B4F5B99E7A8783F20BF4FE5 /* Release */ = {
+		CB593BE08A564B0252862B3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBFD9CF773A22DDDD1BF479F /* Pods-Facebump-QRCode-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-QRCode/Pods-Facebump-QRCode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-QRCode/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-QRCode/Pods-Facebump-QRCode.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = QRCode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		45849F096EA67BE2A12516E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADD7975302DF97F458E50CAB /* Pods-Facebump-RSBarcodes_Swift-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Pods-Facebump-RSBarcodes_Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Pods-Facebump-RSBarcodes_Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RSBarcodes_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		480DE68857A4712A41987066 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B775DA075E2149FBABEDB201 /* Pods-Facebump-SwiftAddressBook-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-SwiftAddressBook/Pods-Facebump-SwiftAddressBook-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-SwiftAddressBook/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-SwiftAddressBook/Pods-Facebump-SwiftAddressBook.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftAddressBook;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4AB4A1E7A7F4C1C25C0DBE59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADD7975302DF97F458E50CAB /* Pods-Facebump-RSBarcodes_Swift-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Pods-Facebump-RSBarcodes_Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Pods-Facebump-RSBarcodes_Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RSBarcodes_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A0CE952094B004B0F2234FE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8126EAB8E690284BD6977826 /* Pods-Facebump.debug.xcconfig */;
+			baseConfigurationReference = 5B7523D7132BB4DBABCF9651 /* Pods-Facebump.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -816,23 +845,22 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-Facebump/Pods-Facebump.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_Facebump;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		B4DE44B31693C1546F6AF58D /* Debug */ = {
+		DBCEF4C61B861E6D156C5981 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBFD9CF773A22DDDD1BF479F /* Pods-Facebump-QRCode-Private.xcconfig */;
+			baseConfigurationReference = 7DA7B682BBE4380A621D43E0 /* Pods-Facebump-RSBarcodes_Swift-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -841,42 +869,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-QRCode/Pods-Facebump-QRCode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-QRCode/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Pods-Facebump-RSBarcodes_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-QRCode/Pods-Facebump-QRCode.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = QRCode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F63BDF7A3D19F46A1D429822 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B775DA075E2149FBABEDB201 /* Pods-Facebump-SwiftAddressBook-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Facebump-SwiftAddressBook/Pods-Facebump-SwiftAddressBook-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Facebump-SwiftAddressBook/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-SwiftAddressBook/Pods-Facebump-SwiftAddressBook.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Facebump-RSBarcodes_Swift/Pods-Facebump-RSBarcodes_Swift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftAddressBook;
+				PRODUCT_NAME = RSBarcodes_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -888,52 +888,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		382FF480DEA82E3C0FEB8A47 /* Build configuration list for PBXProject "Pods" */ = {
+		363E406155EC63FC138EBD69 /* Build configuration list for PBXNativeTarget "Pods-Facebump-QRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09E1BAE632238F0C86C6A924 /* Debug */,
-				25097D90A94E746127898380 /* Release */,
+				5AB653CB12D5936011C31634 /* Debug */,
+				570380F41E048FB878285213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DF983F36D9D9C38C81C953A /* Build configuration list for PBXNativeTarget "Pods-Facebump" */ = {
+		3C9506B87778A45D5552E14E /* Build configuration list for PBXNativeTarget "Pods-Facebump-SwiftAddressBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0CE952094B004B0F2234FE3 /* Debug */,
-				060144FD39032166AD3B0B70 /* Release */,
+				5834083084A9730B64F4FE06 /* Debug */,
+				8BA6CF673114CED611F046E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61D09A36E4C7F37CA31EE534 /* Build configuration list for PBXNativeTarget "Pods-Facebump-QRCode" */ = {
+		70AFE63EC0E0058364587225 /* Build configuration list for PBXNativeTarget "Pods-Facebump-RSBarcodes_Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4DE44B31693C1546F6AF58D /* Debug */,
-				3B4F5B99E7A8783F20BF4FE5 /* Release */,
+				4DDBC99BAA15F9376CE5D12E /* Debug */,
+				DBCEF4C61B861E6D156C5981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81989B5DF2596B387FFA5576 /* Build configuration list for PBXNativeTarget "Pods-Facebump-RSBarcodes_Swift" */ = {
+		72DD4A97284AC0BDAA77C7CA /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AB4A1E7A7F4C1C25C0DBE59 /* Debug */,
-				45849F096EA67BE2A12516E3 /* Release */,
+				404D1A61B0E3B1292E448693 /* Debug */,
+				A21EF2E2FD7FB36522C01E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9D44430DDC12E17EF730651 /* Build configuration list for PBXNativeTarget "Pods-Facebump-SwiftAddressBook" */ = {
+		E8A4C917ED58560B2F691405 /* Build configuration list for PBXNativeTarget "Pods-Facebump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				480DE68857A4712A41987066 /* Debug */,
-				F63BDF7A3D19F46A1D429822 /* Release */,
+				59FA5089375186C9F9F70BB1 /* Debug */,
+				CB593BE08A564B0252862B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C897B02E9B94E84F42C1A174 /* Project object */;
+	rootObject = C6D460FC739C2C1C985B9402 /* Project object */;
 }
